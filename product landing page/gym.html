@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sristi fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+	body{
+		margin: 0 px;
+		padding: 0px;
+		background: url("pic.jpg") center center fixed;
+		background size:cover ;
+	}
+	.left{
+		display: inline-block;
+		
+		position: absolute;
+		left: 34px;
+		top: 20px;
+
+	}
+	.mid{
+		display:inline block;
+		width: 50%;
+		margin: 20px auto;
+	
+
+	}
+	.right{
+		position: absolute;
+		right: 34px;
+		top: 20px;
+		display: inline-block;
+		
+
+	}
+	.navbar{
+		display: inline-block;
+	}
+
+	.navbar li{
+		display: inline-block;
+		font size: 25px;
+	}
+	.navbar li a{
+		color: red;
+		text-decoration: none;
+		padding: 34px 23px;
+		font-family: inherit;
+	}
+
+	.navbar li a:hover,.navbar li a:active {
+
+	text-decoration:underline;
+	color: grey;
+    }
+    .left img{
+    	width: 100px;
+    	filter: invert(100%);
+    }
+
+    .left div{
+    	text color: red;
+    	text-align: center;
+    }
+
+    .btn{
+    	margin: 0px 9px;
+    	background color:green;
+    	color:blue ;
+    	padding: 4px 14px;
+    	 border-radius:20px;
+    	 font size: 20px;
+    	 cursor: pointer;
+    	 
+
+    }
+
+    .btn hover{
+    	background-color: orange;
+    }
+
+    .container{
+    	border: 2px solid green;
+    	margin: 60px 80px;
+    	padding: 30px 20px;
+    	width: 40%;
+    	border-radius: 10px;
+    	font-family: inherit;
+
+    }
+
+    .form-group input{
+    	text-align: center;
+    	display:  block;
+    	width: 256px;
+    	border-radius:20px solid red;
+    	margin: 11px auto;
+    	padding: 6px;
+    	border: 2px solid black;
+    	font size: 25px;
+    }
+
+    .container h1{
+    	text-align: center;
+    }
+
+    .container button{
+    	text-align: center;
+    	width: 23%;
+    	margin: auto;
+    }
+	
+</style>
+<body>
+	<header class="header">
+		<!--Left box for logo-->
+		<div class="left">
+			<img src="logo.png">
+			<div> Healthy And Wealthy</div>
+			</div>
+		<!--mid box for navbar-->
+		<div class="mid">
+			<ul class="navbar">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Fitness Calculator</a></li>
+			<li><a href="#">Our Services</a></li>
+			<li><a href="#">Contact Us</a></li>
+
+			
+		</div>
+		<!--right box for button-->
+		<div class="right">
+			<button class="btn">Call Us Now	</button>
+			<button class="btn">Email Us</button>
+			
+		</div>
+		<header>
+			<div class="container">
+				<h1>Join the best gym of Dhanbad now</h1>
+				<form>
+					<div class="form-group">
+						<input type="text"  placeholder="enter your name">
+
+						
+					</div>
+					<div class="form-group">
+						<input type="text"  placeholder="enter your age">
+						
+						
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="enter your gender">
+						
+						
+					</div>
+					<div class="form-group">
+						<input type="text"  placeholder="enter your locality">
+						
+						
+					</div>
+					<div><button class="btn">Submit</button></div>
+				    
+				</form>
+
+		</header>
+		
+	</header>
+
+</body>
+</html>
